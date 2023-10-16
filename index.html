@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Barbearia Alura</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="containerInformations">
+				<img src="assets/iconBarber.png">
+				<a href="">HOME</a>
+				<a href="#barber">SERVIÇOS</a>
+				<a href="#about">SOBRE</a>
+				<a href="">ENDEREÇO</a>
+				<a href="#contacts">CONTATO</a>
+			</div>
+		</header>
+		<div class="barberShop" id="services">
+			<img src="assets/mainBarber.jpg" class="mainBarber">
+			<h1>Barbearia chefe do bigode</h1>
+			<div class="optionsBarber">
+				<div class="hoverBarber" id="barber">
+					<div class="barber">
+						<h2>Barba</h2>
+					</div>
+					<img src="assets/optionBarber.jpg">
+				</div>
+				
+				<div class="hoverHair">
+					<div class="hair">
+						<h2>Cabelo</h2>
+					</div>
+					<img src="assets/optionHair.jpg">
+				</div>
+			</div>
+			
+		</div>
+		<div class="about" id="about">
+			<div class="containerAbout">
+				<h1>Sobre nós, a barbearia chefe do bigode.</h1>
+				<p>Saiba como nós prezamos em deixar sempre sua barba e bigode <em><strong>"De RESPEITO."</strong></em></p>
+				<button class="btn">
+					<svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+					  <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+					  <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+					</svg>
+					<span>Conheça nossa história</span>
+				</button>
+			</div>	
+			<div class="containerImage">
+				<img src=""/>
+			</div>
+		</div>
+		<div class="contacts" id="contacts">
+			<div class="container">
+				<form>
+					<h1 class="titleContact">Contato</h1>
+					<div class="name">
+						<label>Nome</label>
+						<input placeholder="Seu nome"/>
+					</div>
+					<div class="email">
+						<label>Email</label>
+						<input placeholder="Seu e-mail"/>
+					</div>
+					<div class="assunt">
+						<label>Assunto</label>
+						<select>
+							<option>Barba</option>
+							<option>Cabelo</option>
+							<option>Bigode</option>
+						</select>
+					</div>
+					<div class="message">
+						<label>Mensagem</label>
+						<input placeholder="Sua mensagem"/>
+					</div>
+					<button>
+						Enviar dados
+					</button>
+				</form>
+			</div>
+		</div>
+
+	</body>
+</html>

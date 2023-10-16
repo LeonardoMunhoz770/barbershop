@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html{
+	scroll-behavior: smooth;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #252128;
+	max-width: 100%;
+	height: 100px;
+	font-family: 'Roboto', sans-serif;
+	color: aliceblue;
+
+}
+
+header img{
+	width: 60px;
+	height: 50px;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+
+header a{
+	text-decoration: none;
+	color: #fff;
+	padding-left: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: large;
+}
+
+.containerInformations{
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+
+.barberShop{
+	background-color: black;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.barberShop .mainBarber{
+	width: 350px;
+	height: 350px;
+	padding: 20px;
+	border-radius: 100px;
+}
+
+.barberShop h1{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	padding: 50px;
+	
+}
+
+.optionsBarber{
+	width: 100%;
+	flex-direction: row;
+	display: flex;
+}
+
+.optionsBarber div{
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.hoverBarber:hover{
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.hoverHair:hover{
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.optionsBarber img{
+	background-color: blue;
+	width: 100%;
+	cursor: pointer;
+}
+
+.optionsBarber h2{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	font-size: 30px;
+	background-color: #252128;
+}
+
+.hoverBarber .barber{
+	width: auto;
+	display: block;
+}
+.hoverHair .hair{
+	width: auto;
+	display: block;
+}
+
+.about{
+	background-color: black;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	height: 500px;
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+}
+
+.about .containerAbout{
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+}
+
+
+.btn {
+	width: 200px;
+	height: 60px;
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid white;
+	outline: none;
+	transition: 1s ease-in-out;
+	color: white;
+  }
+  
+  svg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	fill: none;
+	stroke: #fff;
+	stroke-dasharray: 150 480;
+	stroke-dashoffset: 150;
+	transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+	transition: 1s ease-in-out;
+	background: white;
+	color: #252128;
+  }
+  
+.btn span{
+	font-size: 20px;
+}
+.contacts{
+	background-color: #fff;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.container{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 700px;
+	height: 500px;
+	text-align: center;
+}
+
+
+
+form{
+	width: 80%;
+}
+
+.titleContact{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+}
+
+form .name{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+form .email{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+form .assunt{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+form .message{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+form label{
+	display: flex;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+
+form input{
+	height: 40px;
+	border-radius: 2px;
+	box-shadow: 0 0 0 0;
+    outline: 0;
+	border: none;
+	box-shadow: 0 0 0.5em rgb(204, 204, 204);
+	text-indent: 10px;
+}
+
+form select{
+	height: 30px;
+	border-radius: 2px;
+	box-shadow: 0 0 0 0;
+    outline: 0;
+	border: none;
+	box-shadow: 0 0 0.5em rgb(204, 204, 204);
+	text-indent: 10px;
+}
+
+.message input{
+	height: 100px;
+}
+
+form button{
+	height: 40px;
+	width: 100px;
+	border-radius: 2px;
+    outline: 0;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
